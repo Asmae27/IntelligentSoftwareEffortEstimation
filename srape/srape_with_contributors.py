@@ -9,7 +9,7 @@ from urllib.parse import urlparse
 # ==========================
 TOKEN = os.getenv("GITHUB_TOKEN")
 
-INPUT_CSV = "dataset/github_graphql_balanced_dataset.csv"
+INPUT_CSV = "C:/Users/user/githubdata/github_graphql_balanced_dataset.csv"
 OUTPUT_CSV = "dataset/github_graphql_with_contributors.csv"
 
 HEADERS = {

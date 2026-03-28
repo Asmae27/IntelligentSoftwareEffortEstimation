@@ -1,0 +1,40 @@
+{
+  "results": {
+    "Ridge Regression": {
+      "CV_R2_mean": 0.6297,
+      "CV_R2_std": 0.0053,
+      "Test_R2": 0.6284,
+      "Test_RMSE": 1.1174,
+      "Test_MAE": 0.8891,
+      "MAPE": 24.86
+    },
+    "Random Forest": {
+      "CV_R2_mean": 0.9219,
+      "CV_R2_std": 0.005,
+      "Test_R2": 0.9262,
+      "Test_RMSE": 0.498,
+      "Test_MAE": 0.2303,
+      "MAPE": 8.44
+    },
+    "Gradient Boosting": {
+      "CV_R2_mean": 0.9272,
+      "CV_R2_std": 0.0048,
+      "Test_R2": 0.9301,
+      "Test_RMSE": 0.4846,
+      "Test_MAE": 0.2215,
+      "MAPE": 8.29
+    }
+  },
+  "best_model": "Gradient Boosting",
+  "features": [
+    "stars_log",
+    "forks_log",
+    "contributors_log",
+    "repo_age_days",
+    "forks_per_star",
+    "pr_ratio",
+    "issues",
+    "pull_requests"
+  ],
+  "target": "commits_log"
+}
